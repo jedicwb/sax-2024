@@ -1,0 +1,11 @@
+{
+  "name": "sax-2024",
+  "version": "1.0.0",
+  "description": "Automated test workshop at Saxion 2024",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "Jonathan Machado",
+  "license": "ISC"
+}
