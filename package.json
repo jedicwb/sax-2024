@@ -4,7 +4,7 @@
   "description": "Automated test workshop at Saxion 2024",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "npx cypress open"
   },
   "author": "Jonathan Machado",
   "license": "ISC",
