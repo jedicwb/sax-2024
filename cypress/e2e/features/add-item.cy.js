@@ -22,10 +22,10 @@ describe('add item', () => {
         cy.get(`[data-qa="item-card"]`)
             .first()
             .click()
-        cy.get(`[data-qa="item-selector-dialog-content"]`)
+        cy.getByQA(`item-selector-dialog-content`)
             .should('exist')
         
-        cy.get(`[data-qa="item-selector-add-button"]`).click()
+        cy.getByQA(`item-selector-add-button`).click()
         
         cy.get('.p-4')
             .should('include.text', 'Beer')
